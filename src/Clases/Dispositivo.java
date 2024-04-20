@@ -7,9 +7,15 @@ public class Dispositivo {
         return Modelo;
     }
     private static void setModelo(String Modelo){
-        Modelo;
-
+        String modelo = Modelo;
+    }
+    private String getSO(){
+        return SO;
+    }
+    private static void setSO(String SO){
+        String so = SO;
     }
 
+//a pesar de haber practicado y estudiado toda la semana, estoy completamente en blanco:(
 
 }
