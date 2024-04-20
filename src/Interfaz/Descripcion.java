@@ -1,10 +1,7 @@
 package Interfaz;
 
 public interface Descripcion {
-     private String getDescripcion(){
-         return null;
-     }
-    private static void setDescripcion(String Descripcion){
-
-    }
+    String Descripcion = null;
+    private String getDescripcion(){return Descripcion;}
+    private void setDescripcion(String Descripcion){this.Descripcion=Descripcion;}
 }

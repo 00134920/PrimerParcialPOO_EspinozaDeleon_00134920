@@ -3,17 +3,15 @@ package Clases;
 public class Dispositivo {
     String Modelo;
     String SO;
-    private String getModelo(){
-        return Modelo;
-    }
-    private static void setModelo(String Modelo){
-        String modelo = Modelo;
-    }
-    private String getSO(){
+    public Dispositivo(){}
+
+    public String getModelo(){return Modelo;}
+    public void setModelo(String Modelo){this.Modelo = Modelo;}
+    public String getSO(){
         return SO;
     }
-    private static void setSO(String SO){
-        String so = SO;
+    public void setSO(String SO){
+        this.Modelo = SO;
     }
 
 //a pesar de haber practicado y estudiado toda la semana, estoy completamente en blanco:(
